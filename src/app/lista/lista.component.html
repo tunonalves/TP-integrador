@@ -1,0 +1,25 @@
+<br><br>
+<div class="Persona" *ngFor = "let persona of arrayPersonas"> 
+<table class="table table-success table-striped">
+	<thead>
+		<tr>
+		<th scope="col">ID</th>
+		<th scope="col">Name</th>
+		<th scope="col">Lastname</th>
+		<th scope="col">DNI</th>
+		<th scope="col">Email</th>
+		<th scope="col">Address</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		<th scope="row">{{persona.clientid}}</th>
+		<td>{{persona.name}}</td>
+		<td>{{persona.lastname}}</td>
+		<td>{{persona.dni}}</td>
+		<td>{{persona.email}}</td>
+		<td>{{persona.address}}</td>
+		</tr>
+	</tbody>
+</table>
+</div>	

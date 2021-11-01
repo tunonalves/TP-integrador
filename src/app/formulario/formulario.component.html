@@ -1,0 +1,18 @@
+<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+	<div class="form-group">
+		<label>ClientID</label>
+		<input type="text" class="form-control" formControlName="clientid">
+		<label>Name</label>
+		<input type="text" class="form-control" formControlName="name">
+		<label>Lastname</label>
+		<input type="text" class="form-control" formControlName="lastname">
+		<label>DNI</label>
+		<input type="text" class="form-control" formControlName="dni">
+		<label>Email</label>
+		<input type="text" class="form-control" formControlName="email">
+		<label>Address</label>
+		<input type="text" class="form-control" formControlName="address">
+	</div>
+	<br>
+	<input class="btn btn-primary" type="submit" value="Send">
+</form>
